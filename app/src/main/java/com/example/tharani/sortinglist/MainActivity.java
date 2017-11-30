@@ -56,8 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 Arrays.sort( monthName );
                 arrayAdapter.notifyDataSetChanged();
                 Toast.makeText( getApplicationContext(), "Month in ascending Oder  ", Toast.LENGTH_SHORT ).show();
-                /*
-                LENGTH_SHORT Shows the view or text notification for a long period of time.
+                /*this is a toast message
                 int LENGTH_SHORT Show the view or text notification for a short period of toast*/
 
             }
